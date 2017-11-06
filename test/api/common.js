@@ -35,10 +35,10 @@ describe('Common API', () => {
 		it('should be ok', (done) => {
 			getPriceTicker((err, res) => {
 				node.expect(res.body).to.have.property('success').to.be.equal(true);
-				node.expect(res.body).to.have.deep.property('tickers.LSK.BTC').to.be.at.least(0);
-				node.expect(res.body).to.have.deep.property('tickers.LSK.EUR').to.be.at.least(0);
-				node.expect(res.body).to.have.deep.property('tickers.LSK.USD').to.be.at.least(0);
-				// node.expect(res.body).to.have.deep.property('tickers.LSK.CNY').to.be.at.least(0);
+				node.expect(res.body).to.have.deep.property('tickers.SHIFT.BTC').to.be.at.least(0);
+				node.expect(res.body).to.have.deep.property('tickers.SHIFT.EUR').to.be.at.least(0);
+				node.expect(res.body).to.have.deep.property('tickers.SHIFT.USD').to.be.at.least(0);
+				// node.expect(res.body).to.have.deep.property('tickers.SHIFT.CNY').to.be.at.least(0);
 				node.expect(res.body).to.have.deep.property('tickers.BTC.USD').to.be.at.least(0);
 				node.expect(res.body).to.have.deep.property('tickers.BTC.EUR').to.be.at.least(0);
 				done();

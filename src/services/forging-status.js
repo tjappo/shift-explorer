@@ -33,17 +33,15 @@ AppServices.service('forgingStatus',
 		} else if (!status.blockAt || !status.updatedAt) {
 			// Awaiting status or unprocessed
 			status.code = 5;
-			// For delegates which not forged a signle block yet (statuses 0,3,5 not apply here)
+			// For delegates which not forged a single block yet (statuses 0,3,5 not apply here)
 		} else if (!status.blockAt && status.updatedAt) {
-			if (!delegate.isRoundDelegate && delegate.missedblocks === 1) {
-				// Missed block in current round
-				status.code = 1;
+			// Missed block ...
+			if (delegate.missedblocks === 1) {
+				// in current round => 1
+				// in previous round => 4
+				status.code = (!delegate.isRoundDelegate) ? 1 : 4;
 			} else if (delegate.missedblocks > 1) {
-				// Missed more than 1 block = not forging
 				status.code = 2;
-			} else if (delegate.missedblocks === 1) {
-				// Missed block in previous round
-				status.code = 4;
 			}
 		} else {
 			// Not Forging

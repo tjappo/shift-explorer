@@ -1,6 +1,6 @@
 
 import angular from 'angular';
 
-const AppSearch = angular.module('lisk_explorer.search', []);
+const AppSearch = angular.module('shift_explorer.search', []);
 
 export default AppSearch;

@@ -20,11 +20,11 @@ const HeaderConstructor = function ($rootScope) {
 		}
 
 		// When ticker for user-stored currency is not available - switch to LSK temporarily
-		if ($rootScope.currency.symbol !== 'LSK' &&
+		if ($rootScope.currency.symbol !== 'SHIFT' &&
 			(!$rootScope.currency.tickers ||
-			!$rootScope.currency.tickers.LSK ||
-			!$rootScope.currency.tickers.LSK[$rootScope.currency.symbol])) {
-			$rootScope.currency.symbol = 'LSK';
+			!$rootScope.currency.tickers.SHIFT ||
+			!$rootScope.currency.tickers.SHIFT[$rootScope.currency.symbol])) {
+			$rootScope.currency.symbol = 'SHIFT';
 		}
 	};
 

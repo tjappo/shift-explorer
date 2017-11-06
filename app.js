@@ -39,7 +39,7 @@ app.orders = new utils.orders(config, client);
 
 app.set('version', '0.3');
 app.set('strict routing', true);
-app.set('lisk address', `http://${config.lisk.host}:${config.lisk.port}`);
+app.set('shift address', `http://${config.shift.host}:${config.shift.port}`);
 app.set('freegeoip address', `http://${config.freegeoip.host}:${config.freegeoip.port}`);
 app.set('exchange enabled', config.exchangeRates.enabled);
 
@@ -185,7 +185,7 @@ async.parallel([
 		if (err) {
 			logger.info(err);
 		} else {
-			logger.info(`Lisk Explorer started at ${app.get('host')}:${app.get('port')}`);
+			logger.info(`Shift Explorer started at ${app.get('host')}:${app.get('port')}`);
 
 			const io = require('socket.io').listen(server);
 			require('./sockets')(app, io);

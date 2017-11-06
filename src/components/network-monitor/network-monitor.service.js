@@ -69,7 +69,7 @@ const NetworkMap = function () {
 	this.addConnected = function (peers) {
 		const connected = [];
 
-		Object.keys(peers.connected).forEach((item) => {
+		Object.values(peers.connected).forEach((item) => {
 			if (validLocation(item.location)) {
 				if (!Object.keys(this.markers).includes(item.ip)) {
 					this.cluster.addLayer(

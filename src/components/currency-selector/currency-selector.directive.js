@@ -4,7 +4,7 @@ import template from './currency-selector.html';
 AppCurrency.directive('currencySelector', ($rootScope, $timeout) => {
 	const CurrencySelectorLink = () => {
 		$timeout(() => {
-			$rootScope.currency.symbol = (localStorage && localStorage.getItem('lisk_explorer-currency')) || 'LSK';
+			$rootScope.currency.symbol = (localStorage && localStorage.getItem('shift_explorer-currency')) || 'SHIFT';
 		});
 	};
 
@@ -12,7 +12,7 @@ AppCurrency.directive('currencySelector', ($rootScope, $timeout) => {
 		this.setCurrency = (currency) => {
 			$rootScope.currency.symbol = currency;
 			if (localStorage) {
-				localStorage.setItem('lisk_explorer-currency', currency);
+				localStorage.setItem('shift_explorer-currency', currency);
 			}
 		};
 	};

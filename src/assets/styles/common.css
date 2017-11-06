@@ -37,12 +37,12 @@ h1>small {
 }
 
 a, a:visited, a:focus {
-  color: #0288d1;
+  color: #2E5670;
   text-decoration: none;
 }
 
 a:hover {
-  color: #f57c00;
+  color: #2E5670;
   text-decoration: none;
   transition: color 0.3s ease 0s;
 }
@@ -56,14 +56,14 @@ a:hover {
 
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
   color: white;
-  background-color: #27292A;
+  background-color: #2E5670;
 }
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #0288d1 !important;
+  background-color: #2E5670 !important;
   box-shadow: none !important;
-  color: #0288d1 !important;
+  color: #2E5670 !important;
   height: 3px !important;
   margin: 0;
   opacity: 0;
@@ -206,7 +206,7 @@ qrcode svg {
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #393C3E;}
 
 .navbar-default {
-  background-color: #393C3E;
+  background-color: #152836;
   margin: 0;
   border: 0;
 }
@@ -222,24 +222,24 @@ qrcode svg {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-  background-color: #27292A;
+  background-color: #2E5670;
   color: white;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: #27292A;
+  background-color: #2E5670;
   color: white;
 }
 
 .navbar-default .navbar-nav>li>a:focus {
-  background-color: #27292A;
+  background-color: #2E5670;
   color: white;
 }
 
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
-  background-color: #27292A;
+  background-color: #2E5670;
   color: white;
 }
 
@@ -255,10 +255,10 @@ qrcode svg {
   }
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     background-color: white;
-    color: #333;
+    color: #397796;
   }
   .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-    background-color: #27292A;
+    background-color: #2E5670;
     color: white;
   }
   .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .pre-scrollable {
@@ -296,12 +296,12 @@ qrcode svg {
 .nav-tabs.nav-justified>.active>a,
 .nav-tabs.nav-justified>.active>a:focus {
   color: white;
-  background-color: #393C3E;
+  background-color: #2E5670;
 }
 
 .nav-tabs.nav-justified>.active>a:hover {
   color: white;
-  background-color: #27292A;
+  background-color: #2E5670;
 }
 
 .nav-tabs.nav-justified>li>a:hover {
@@ -315,14 +315,15 @@ qrcode svg {
 
 .navbar-default .navbar-brand {
   color: white;
-  padding: 13px;
+  padding: 5px;
   height: 76px;
 }
 
 .navbar-brand .logo {
-  height: 55px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   background: url('../img/logo.png');
+  background-size: 100% 100%;
 }
 @media (-webkit-min-device-pixel-ratio: 2),
        (min-device-pixel-ratio: 2),
@@ -330,7 +331,7 @@ qrcode svg {
 
   .navbar-brand .logo {
     background: url('../img/logo2x.png') no-repeat top left;
-    background-size: 100px 55px;
+    background-size: 100% 100%;
   }
 }
 
@@ -361,7 +362,7 @@ qrcode svg {
 
 #search.loading {
   color: white;
-  background-color: #0288d1;
+  background-color: #2E5670;
   -webkit-animation-name: loading;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
@@ -371,12 +372,12 @@ qrcode svg {
 }
 
 @-webkit-keyframes loading {
-  from { background-color: #0288d1; }
+  from { background-color: #2E5670; }
   to { background-color: #38B449; }
 }
 
 @keyframes loading {
-    from { background-color: #0288d1; }
+    from { background-color: #2E5670; }
     to { background-color: #38B449; }
 }
 
@@ -399,7 +400,7 @@ qrcode svg {
   float: left;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #27292A;
+  background-color: #2E5670;
   border-radius: 3px;
   margin-left: 10px;
   margin-top: 12px;
@@ -518,21 +519,21 @@ qrcode svg {
 
 .btn-primary, a.btn-primary {
   color: #fff;
-  background-color: #0288d1;
-  border-color: #0288d1;
+  background-color: #2E5670;
+  border-color: #2E5670;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #0288d1;
-  border-color: #0288d1;
+  background-color: #2E5670;
+  border-color: #2E5670;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0299eb;
-  border-color: #0299eb;
+  background-color: #2E5670;
+  border-color: #2E5670;
 }
 
 .btn-primary:active,
@@ -553,8 +554,8 @@ qrcode svg {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background-color: #0288d1;
-  border-color: #0288d1;
+  background-color: #2E5670;
+  border-color: #2E5670;
 }
 
 .btn-primary:active,
@@ -572,12 +573,12 @@ qrcode svg {
 .btn-primary.disabled.focus,
 .btn-primary[disabled].focus,
  fieldset[disabled] .btn-primary.focus {
-  background-color: #0288d1;
-  border-color: #0288d1;
+  background-color: #2E5670;
+  border-color: #2E5670;
 }
 
 .btn-primary .badge {
-  color: #0288d1;
+  color: #2E5670;
   background-color: #fff;
 }
 
@@ -586,7 +587,6 @@ qrcode svg {
 }
 
 .txvalues {
-  display: inline-block;
   padding: .7em 2em;
   font-size: 13px;
   text-transform: uppercase;
@@ -600,7 +600,7 @@ qrcode svg {
 }
 
 .txvalues-primary {
-  background-color: #0288d1;
+  background-color: #2E5670;
 }
 
 .txvalues-default {
@@ -624,12 +624,12 @@ qrcode svg {
 }
 
 .progress-bar-loading {
-  background-color: #0288d1;
+  background-color: #2E5670;
 }
 
 /* Set the fixed height of the footer here */
 #footer {
-  background-color: #393C3E;
+  background-color: #152836;
   color: white;
   height: 48px;
   /*overflow: hidden;*/
@@ -651,7 +651,7 @@ qrcode svg {
 }
 
 #footer .col-right a.link {
-  color: #27292A;
+  color: #2E5670;
   margin-left: 10px;
 }
 
@@ -843,11 +843,11 @@ qrcode svg {
 
 .tooltip .tooltip-inner {
   color: white;
-  background-color: #0288d1;
+  background-color: #2E5670;
 }
 
 .tooltip.right .tooltip-arrow {
-  border-right-color: #0288d1;
+  border-right-color: #2E5670;
 }
 
 .btn-copy.active .tooltip { opacity: 1; }
@@ -1045,7 +1045,7 @@ a.sort-order:focus, .sort-order:hover {
 }
 
 a.sort-order span {
-  color: #0288d1;
+  color: #2E5670;
 }
 
 a.sort-order span:after {

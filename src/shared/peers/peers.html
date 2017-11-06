@@ -22,7 +22,7 @@
 				<td><span class="text-muted">{{p.ip}}</span></td>
 				<td><span class="text-muted">{{p.port}}</span></td>
 				<td class="hidden-xs"><span class="text-muted ellipsis hostname" title="{{p.location.hostname}}">{{p.location.hostname || 'N/A'}}</span></td>
-				<td class="hidden-xs"><span class="flag flag-{{p.location.country_code | lowercase}}" title="{{p.location.country_name}}" /></td>
+				<td class="hidden-xs"><span class="flag flag-{{p.location.country_code | lowercase}}" title="{{p.location.country_name}}" ></span></td>
 				<td><span class="peer-state state-{{p.state}}" title="{{p.humanState}}"></span></td>
 				<td><span class="text-muted">{{p.version}}</span></td>
 				<td><span os-icon os="p.os" brand="p.osBrand"></span></td>

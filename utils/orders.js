@@ -3,7 +3,7 @@ const async = require('async');
 const logger = require('./logger');
 
 module.exports = function (config, client) {
-	const poloniex = new orders.poloniex(client);
+	// const poloniex = new orders.poloniex(client);
 	const bittrex = new orders.bittrex(client);
 	let running = false;
 
@@ -16,19 +16,19 @@ module.exports = function (config, client) {
 
 
 		async.series([
-			(callback) => {
-				if (!config.marketWatcher.exchanges.poloniex) {
-					callback(null);
-				} else {
-					poloniex.updateOrders((err, res) => {
-						if (err) {
-							callback(err);
-						} else {
-							callback(null, res);
-						}
-					});
-				}
-			},
+			// (callback) => {
+			// 	if (!config.marketWatcher.exchanges.poloniex) {
+			// 		callback(null);
+			// 	} else {
+			// 		poloniex.updateOrders((err, res) => {
+			// 			if (err) {
+			// 				callback(err);
+			// 			} else {
+			// 				callback(null, res);
+			// 			}
+			// 		});
+			// 	}
+			// },
 			(callback) => {
 				if (!config.marketWatcher.exchanges.bittrex) {
 					callback(null);

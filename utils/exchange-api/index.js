@@ -59,40 +59,47 @@ module.exports = function (config) {
 				},
 			],
 		},
-		LSKBTC: {
-			poloniex: [
-				'Poloniex',
-				'https://poloniex.com/public?command=returnTicker',
+		SHIFTBTC: {
+			// poloniex: [
+			// 	'Poloniex',
+			// 	'https://poloniex.com/public?command=returnTicker',
+			// 	(res, cb) => {
+			// 		if (res.error) {
+			// 			return cb(res.error);
+			// 		}
+			// 		return cb(null, res.BTC_LSK.last);
+			// 	},
+			// ],
+            bittrex : [
+                'Bittrex',
+                'https://bittrex.com/api/v1.1/public/getticker?market=BTC-SHIFT',
 				(res, cb) => {
-					if (res.error) {
-						return cb(res.error);
-					}
-					return cb(null, res.BTC_LSK.last);
-				},
-			],
+                    return (!res.success) ? cb(res.error) : cb(null, res.result.Last);
+                }
+            ]
 		},
-		LSKCNY: {
-			jubi: [
-				'Jubi',
-				'https://www.jubi.com/api/v1/ticker/?coin=lsk',
-				(res, cb) => {
-					if (res.last) {
-						return cb(null, res.last);
-					}
-					return cb('Unable to get last price');
-				},
-			],
-			bitbays: [
-				'Bitbays',
-				'https://bitbays.com/api/v1/ticker/?market=lsk_cny',
-				(res, cb) => {
-					if (res.status === 200 && res.message === 'ok' && res.result.last) {
-						return cb(null, res.result.last);
-					}
-					return cb('Unable to get last price');
-				},
-			],
-		},
+		// LSKCNY: {
+		// 	jubi: [
+		// 		'Jubi',
+		// 		'https://www.jubi.com/api/v1/ticker/?coin=lsk',
+		// 		(res, cb) => {
+		// 			if (res.last) {
+		// 				return cb(null, res.last);
+		// 			}
+		// 			return cb('Unable to get last price');
+		// 		},
+		// 	],
+		// 	bitbays: [
+		// 		'Bitbays',
+		// 		'https://bitbays.com/api/v1/ticker/?market=lsk_cny',
+		// 		(res, cb) => {
+		// 			if (res.status === 200 && res.message === 'ok' && res.result.last) {
+		// 				return cb(null, res.result.last);
+		// 			}
+		// 			return cb('Unable to get last price');
+		// 		},
+		// 	],
+		// },
 	};
 
 	const requestTicker = (options, cb) => {

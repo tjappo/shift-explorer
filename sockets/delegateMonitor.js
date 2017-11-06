@@ -58,15 +58,11 @@ module.exports = function (app, connectionHandler, socket) {
 	const updateDelegate = (delegate, updateForgingTime) => {
 		// Update delegate with forging time
 		if (updateForgingTime) {
-			delegate.forgingTime = tmpData.nextForgers.delegates.indexOf(delegate.publicKey) * 10;
+			delegate.forgingTime = tmpData.nextForgers.delegates.indexOf(delegate.publicKey) * 27;
 		}
 
 		// Update delegate with info if should forge in current round
-		if (tmpData.roundDelegates.indexOf(delegate.publicKey) === -1) {
-			delegate.isRoundDelegate = false;
-		} else {
-			delegate.isRoundDelegate = true;
-		}
+		delegate.isRoundDelegate = tmpData.roundDelegates.indexOf(delegate.publicKey) !== -1;
 		return delegate;
 	};
 
@@ -152,7 +148,7 @@ module.exports = function (app, connectionHandler, socket) {
 		return async.waterfall([
 			(callback) => {
 				request.get({
-					url: `${app.get('lisk address')}/api/blocks?orderBy=height:desc&limit=${limit}`,
+					url: `${app.get('shift address')}/api/blocks?orderBy=height:desc&limit=${limit}`,
 					json: true,
 				}, (err, response, body) => {
 					if (err || response.statusCode !== 200) {
@@ -262,11 +258,11 @@ module.exports = function (app, connectionHandler, socket) {
 
 			if (existing) {
 				delegate = updateDelegate(delegate, true);
-			}
 
-			if (existing && existing.blocks && existing.blocksAt) {
-				delegate.blocks = existing.blocks;
-				delegate.blocksAt = existing.blocksAt;
+				if (existing.blocks && existing.blocksAt) {
+					delegate.blocks = existing.blocks;
+					delegate.blocksAt = existing.blocksAt;
+				}
 			}
 		});
 

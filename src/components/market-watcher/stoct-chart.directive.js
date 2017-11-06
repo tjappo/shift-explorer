@@ -41,8 +41,8 @@ AppMarketWatcher.directive('stockChart', ($timeout) => {
 					fromField: 'btcVolume',
 					toField: 'btcVolume',
 				}, {
-					fromField: 'liskVolume',
-					toField: 'liskVolume',
+					fromField: 'shiftVolume',
+					toField: 'shiftVolume',
 				}, {
 					fromField: 'numTrades',
 					toField: 'numTrades',
