@@ -1,5 +1,3 @@
-// const SpecReporter = require('jasmine-spec-reporter').SpecReporter;
-
 exports.config = {
 	specs: [
 		'features/*.feature',
@@ -22,5 +20,7 @@ exports.config = {
 
 	params: {
 		screenshotFolder: 'e2e-test-screenshots',
+		baseURL: 'http://localhost:6040',
+		shiftCoreURL: 'http://localhost:4000',
 	},
 };

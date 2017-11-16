@@ -5,7 +5,8 @@
   "plugins": [
     "import",
     "protractor",
-    "mocha"
+    "mocha",
+    "json"
   ],
   "globals": {
     "ipc": true,
@@ -21,23 +22,27 @@
     "mocha/no-exclusive-tests": "error",
     "func-names": "off",
     "global-require": "off",
-    "new-cap": ["error", {
-      "newIsCap": false,
-      "capIsNew": false,
-      "capIsNewExceptions" : [
-        "When",
-        "Then",
-        "Given",
-        "After",
-        "Before"
-      ]
-    }],
+    "new-cap": [
+      "error",
+      {
+        "newIsCap": false,
+        "capIsNew": false,
+        "capIsNewExceptions": [
+          "When",
+          "Then",
+          "Given",
+          "After",
+          "Before"
+        ]
+      }
+    ],
     "no-loop-func": "off",
     "no-plusplus": "off",
     "no-restricted-properties": "off",
     "no-return-assign": "off",
     "no-underscore-dangle": "off",
-    "import/no-extraneous-dependencies": ["error",
+    "import/no-extraneous-dependencies": [
+      "error",
       {
         "devDependencies": true,
         "optionalDependencies": false,
@@ -45,11 +50,16 @@
       }
     ],
     "no-param-reassign": "off",
-    "camelcase": [ "error", { "properties": "never" }]
+    "camelcase": [
+      "error",
+      {
+        "properties": "never"
+      }
+    ]
   },
   "settings": {
     "mocha/additionalTestFunctions": [
-        "describeModule"
+      "describeModule"
     ]
- }
+  }
 }
