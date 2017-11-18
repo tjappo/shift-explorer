@@ -1,5 +1,6 @@
 import AppHeader from './header.module';
 import template from './header.html';
+import './header.css';
 
 /**
  *
@@ -11,6 +12,14 @@ AppHeader.directive('mainHeader', ($socket, $rootScope, Header) => {
 		$rootScope.currency = {
 			symbol: 'SHIFT',
 		};
+
+		$rootScope.showNethash = (hash) => {
+			if (typeof hash === 'string' && hash.length > 0) {
+				return hash.toLowerCase() !== 'mainnet';
+			}
+			return false;
+		};
+
 
 		const header = new Header($rootScope);
 		const ns = $socket('/header');

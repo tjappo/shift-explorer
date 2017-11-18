@@ -45,6 +45,7 @@ module.exports = function (app, connectionHandler, socket) {
 		}
 		running.getActive = true;
 		return delegates.getActive(
+			'preserved',
 			() => { running.getActive = false; cb('Active'); },
 			(res) => { running.getActive = false; cb(null, res); });
 	};
@@ -58,7 +59,7 @@ module.exports = function (app, connectionHandler, socket) {
 	const updateDelegate = (delegate, updateForgingTime) => {
 		// Update delegate with forging time
 		if (updateForgingTime) {
-			delegate.forgingTime = tmpData.nextForgers.delegates.indexOf(delegate.publicKey) * 27;
+			delegate.forgingTime = (tmpData.nextForgers.delegates.indexOf(delegate.publicKey) + 1) * 27;
 		}
 
 		// Update delegate with info if should forge in current round
@@ -72,6 +73,7 @@ module.exports = function (app, connectionHandler, socket) {
 		}
 		running.getLastBlock = true;
 		return delegates.getLastBlock(
+			'preserved',
 			() => {
 				running.getLastBlock = false;
 				cb('LastBlock');
@@ -88,6 +90,7 @@ module.exports = function (app, connectionHandler, socket) {
 		}
 		running.getRegistrations = true;
 		return delegates.getLatestRegistrations(
+			'preserved',
 			() => {
 				running.getRegistrations = false;
 				cb('Registrations');
@@ -104,6 +107,7 @@ module.exports = function (app, connectionHandler, socket) {
 		}
 		running.getVotes = true;
 		return delegates.getLatestVotes(
+			'preserved',
 			() => {
 				running.getVotes = false;
 				cb('Votes');
@@ -120,6 +124,7 @@ module.exports = function (app, connectionHandler, socket) {
 		}
 		running.getNextForgers = true;
 		return delegates.getNextForgers(
+			'preserved',
 			() => {
 				running.getNextForgers = false;
 				cb('NextForgers');
