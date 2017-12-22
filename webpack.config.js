@@ -44,6 +44,11 @@ module.exports = () => ({
 			sigma: Path.resolve(__dirname, 'node_modules/sigma/build/sigma.require.js'),
 		},
 	},
+	node: {
+		fs: 'empty',
+		net: 'empty',
+		tls: 'empty',
+	},
 	plugins: removeEmpty([
 		new HtmlWebpackPlugin({
 			template: 'src/index.ejs',

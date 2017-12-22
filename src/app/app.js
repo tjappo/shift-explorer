@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import angular from 'angular';
 import 'angular-ui-router';
 import 'angular-resource';
@@ -6,7 +7,6 @@ import 'angular-ui-bootstrap';
 import 'angular-gettext';
 import 'angular-advanced-searchbox';
 // import 'babel-polyfill';
-
 // styles
 import 'amstock3/amcharts/style.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -17,7 +17,6 @@ import 'angular-advanced-searchbox/dist/angular-advanced-searchbox.min.css';
 import '../assets/styles/common.css';
 import '../assets/styles/flags.css';
 import '../assets/styles/tableMobile.css';
-
 // submodules
 import '../components/blocks';
 import '../components/address';
@@ -40,6 +39,13 @@ import '../services';
 import '../directives';
 import './app-tools.module';
 import '../shared';
+
+// const config = require('../../config');
+// const client = require('../../redis')(config);
+// const utils = require('../../utils');
+
+// const candles = new utils.candles(config, client);
+// const orders = new utils.orders(config, client);
 
 const App = angular.module('shift_explorer', [
 	'ngAnimate',
