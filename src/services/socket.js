@@ -7,7 +7,8 @@ import AppServices from './services.module';
  */
 AppServices.factory('$socket',
 	($location, $rootScope) => (namespace) => {
-		const socket = io(`${$location.host()}:${$location.port()}${namespace}`, { forceNew: true });
+//		const socket = io(`${$location.host()}:${$location.port()}${namespace}`, { forceNew: true });
+		const socket = io(`explorer.testnet.shiftnrg.org${namespace}`, { forceNew: true });
 
 		return {
 			on(eventName, callback) {

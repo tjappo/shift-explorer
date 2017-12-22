@@ -11,8 +11,8 @@ config.port = 6040; // Port to listen on
 /**
  * SHIFT node
  */
-config.shift.host = 'corenode1.shiftnrg.org';
-config.shift.port = 9305;
+config.shift.host = 'testnode3.shiftnrg.org';
+config.shift.port = 9406;
 
 /**
  * FreeGeoIP server
@@ -32,7 +32,7 @@ config.redis.password = '';
 config.cacheTTL = 20;
 
 // Collect logs (true - enabled, false - disabled)
-config.log.enabled = true;
+config.log.enabled = false;
 // Output for logs - can be device file or ordinary path
 config.log.file = './logs/explorer.log';
 // Log level - (trace, debug, info, warn, error)
@@ -64,7 +64,7 @@ config.exchangeRates.exchanges.BTC.PLN = false;
  * Market watcher
  */
 // Market watcher support (true - enabled, false - disabled)
-config.marketWatcher.enabled = true;
+config.marketWatcher.enabled = false;
 // Poloniex exchange support (true - enabled, false - disabled)
 // config.marketWatcher.exchanges.poloniex = false;
 // Bittrex exchange support (true - enabled, false - disabled);
@@ -80,7 +80,7 @@ config.marketWatcher.orders.updateInterval = 15000;
  * Delegate Proposals
  */
 // Delegate proposals support (true - enabled, false - disabled)
-config.proposals.enabled = true;
+config.proposals.enabled = false;
 // Interval in ms for updating delegate proposals (default: 10 minutes)
 config.proposals.updateInterval = 600000;
 
