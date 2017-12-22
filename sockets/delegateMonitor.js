@@ -3,6 +3,7 @@ const moment = require('moment');
 const async = require('async');
 const request = require('request');
 const logger = require('../utils/logger');
+const config = require('../config');
 
 module.exports = function (app, connectionHandler, socket) {
 	const delegates = new api.delegates(app);
@@ -153,7 +154,7 @@ module.exports = function (app, connectionHandler, socket) {
 		return async.waterfall([
 			(callback) => {
 				request.get({
-					url: `${app.get('shift address')}/api/blocks?orderBy=height:desc&limit=${limit}`,
+					url: `http://${config.shift.host}:${config.shift.port}/api/blocks?orderBy=height:desc&limit=${limit}`,
 					json: true,
 				}, (err, response, body) => {
 					if (err || response.statusCode !== 200) {
