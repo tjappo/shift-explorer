@@ -1,4 +1,6 @@
 {
     "15128408768964966812S" : { "owner" : "Bittrex", "description" : "Main wallet of Bittrex" },
-    "11559041806723655482S" : { "owner" : "SHIFT Team", "description" : "Main Wallet of Shift Team" }
+    "12362368031146190503S" : { "owner" : "SHIFT Team", "description" : "Main Wallet of Shift Team" },
+    "6999817797142451931S" : { "owner" : "SHIFT Team", "description" : "Community Wallet of Shift Team" },
+    "14343369346460602063S" : { "owner" : "SHIFT Team", "description" : "Dev Wallet of Shift Team" }
 }

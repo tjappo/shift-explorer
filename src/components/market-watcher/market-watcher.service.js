@@ -1,3 +1,4 @@
+/* eslint-disable import/no-dynamic-require */
 import angular from 'angular';
 import AppMarketWatcher from './market-watcher.module';
 
@@ -49,7 +50,7 @@ const MarketWatcher = function ($q, $http, $rootScope, vm) {
 			if (result.data.success) {
 				vm.exchangeLogos = {};
 				vm.exchanges = Object.keys(result.data.exchanges).filter((key) => {
-					System.import(`../../assets/img/exchanges/${key}.png`).then((value) => {
+					require(`../../assets/img/exchanges/${key}.png`).then((value) => {
 						vm.exchangeLogos[key] = value;
 					});
 					if (result.data.exchanges[key]) return key;
