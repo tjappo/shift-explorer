@@ -1,0 +1,640 @@
+{"level":"INFO","timestamp":1518286743179,"message":"KnownAddresses: Loading known addresses..."}
+{"level":"ERROR","timestamp":1518286743180,"message":"KnownAddresses: Error loading known.json:"}
+{"level":"INFO","timestamp":1518286743181,"message":"KnownAddresses: 0"}
+{"level":"INFO","timestamp":1518286743199,"message":"Shift Explorer started at 127.0.0.1:6041"}
+{"level":"INFO","timestamp":1518286749037,"message":"Header: Emitting existing delegate proposals"}
+{"level":"INFO","timestamp":1518286749050,"message":"Header: Emitting existing data"}
+{"level":"INFO","timestamp":1518286749055,"message":"Parsing delegate proposals: 0"}
+{"level":"ERROR","timestamp":1518286749056,"message":"Header: Error retrieving: DelegateProposals"}
+{"level":"INFO","timestamp":1518286749056,"message":"Header: Emitting updated delegate proposals"}
+{"level":"INFO","timestamp":1518286749056,"message":"Header: First connection"}
+{"level":"INFO","timestamp":1518286749094,"message":"Header: Closed connection"}
+{"level":"INFO","timestamp":1518286749449,"message":"Header: Emitting new data"}
+{"level":"INFO","timestamp":1518286755003,"message":"Header: Emitting existing delegate proposals"}
+{"level":"INFO","timestamp":1518286755003,"message":"Header: Emitting existing data"}
+{"level":"INFO","timestamp":1518286755004,"message":"Parsing delegate proposals: 0"}
+{"level":"ERROR","timestamp":1518286755005,"message":"Header: Error retrieving: DelegateProposals"}
+{"level":"INFO","timestamp":1518286755005,"message":"Header: Emitting updated delegate proposals"}
+{"level":"INFO","timestamp":1518286755007,"message":"Header: First connection"}
+{"level":"INFO","timestamp":1518286755435,"message":"Header: Emitting new data"}
+{"level":"INFO","timestamp":1518286759916,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286769847,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286779762,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286790545,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286799758,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286809935,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286819764,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286829871,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286839756,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286850121,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286859769,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286869802,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286879881,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286889932,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286899775,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286909930,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286919784,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286929854,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286939779,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286949773,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286959772,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286969955,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286979802,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286989981,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518286999776,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287011116,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287019885,"message":"Header: Emitting data"}
+{"level":"ERROR","timestamp":1518287039477,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"INFO","timestamp":1518287043984,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287049871,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287060561,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287069899,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287079777,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287089936,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287099773,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287110200,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287119931,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287130244,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287139810,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287149939,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287160117,"message":"Header: Emitting data"}
+{"level":"ERROR","timestamp":1518287179486,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"INFO","timestamp":1518287183431,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287190417,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287204814,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287209902,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287227790,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287229825,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287239801,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287249885,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287259794,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287270489,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287279795,"message":"Header: Emitting data"}
+{"level":"ERROR","timestamp":1518287299495,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"INFO","timestamp":1518287307990,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287317975,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287320841,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287330209,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287340221,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287349450,"message":"Parsing delegate proposals: 0"}
+{"level":"ERROR","timestamp":1518287349451,"message":"Header: Error retrieving: DelegateProposals"}
+{"level":"INFO","timestamp":1518287349451,"message":"Header: Emitting updated delegate proposals"}
+{"level":"INFO","timestamp":1518287349977,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287360819,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287369796,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287384821,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287389799,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287408866,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287410835,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287419801,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287430825,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287439941,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287449812,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287459823,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287469811,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287479809,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287489814,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287499814,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287509822,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287519815,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287529808,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287539811,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287549822,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287559826,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287569855,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287579828,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287589935,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287600147,"message":"Header: Emitting data"}
+{"level":"ERROR","timestamp":1518287619518,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"ERROR","timestamp":1518287629518,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"ERROR","timestamp":1518287639518,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"ERROR","timestamp":1518287648298,"message":"Header: Error retrieving: Status"}
+{"level":"INFO","timestamp":1518287658385,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287668730,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287672748,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287680602,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287690127,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287699960,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287710212,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287720383,"message":"Header: Emitting data"}
+{"level":"ERROR","timestamp":1518287739524,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"INFO","timestamp":1518287742833,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287749890,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287760022,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287769840,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287779882,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287791082,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287799838,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287809835,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287820084,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287832892,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287839878,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287850950,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287860318,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287870857,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287879869,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287890102,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287899839,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287909858,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287919844,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287931115,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287943518,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287949452,"message":"Parsing delegate proposals: 0"}
+{"level":"ERROR","timestamp":1518287949452,"message":"Header: Error retrieving: DelegateProposals"}
+{"level":"INFO","timestamp":1518287949452,"message":"Header: Emitting updated delegate proposals"}
+{"level":"INFO","timestamp":1518287954970,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287959842,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287972847,"message":"Header: Emitting data"}
+{"level":"ERROR","timestamp":1518287989541,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"INFO","timestamp":1518287990048,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518287999943,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288009871,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288019858,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288029905,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288045928,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288049907,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288059893,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288076840,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288080939,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288091193,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288099980,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288118429,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288119895,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288129860,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288139884,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288150281,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288159873,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288170247,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288179865,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288191074,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288199873,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288212215,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288220861,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288230389,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288240865,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288257172,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288260060,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288270194,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288279868,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288289866,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288299867,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288309861,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288319873,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288329875,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288342867,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288349889,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288359882,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288369887,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288379889,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288389869,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288399901,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288411002,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288426247,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288430980,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288441069,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288449879,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288464897,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288469882,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288480088,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288495278,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288503847,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288510925,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288528314,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288529951,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288539906,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288549452,"message":"Parsing delegate proposals: 0"}
+{"level":"ERROR","timestamp":1518288549453,"message":"Header: Error retrieving: DelegateProposals"}
+{"level":"INFO","timestamp":1518288549453,"message":"Header: Emitting updated delegate proposals"}
+{"level":"INFO","timestamp":1518288554914,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288561281,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288569890,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288580262,"message":"Header: Emitting data"}
+{"level":"ERROR","timestamp":1518288599584,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"ERROR","timestamp":1518288609584,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"ERROR","timestamp":1518288619584,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"ERROR","timestamp":1518288625735,"message":"Header: Error retrieving: Status"}
+{"level":"ERROR","timestamp":1518288639585,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"ERROR","timestamp":1518288649587,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"ERROR","timestamp":1518288659587,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"ERROR","timestamp":1518288666736,"message":"Header: Error retrieving: Status"}
+{"level":"INFO","timestamp":1518288669939,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288679886,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288696970,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288702286,"message":"Header: Emitting data"}
+{"level":"ERROR","timestamp":1518288719592,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"INFO","timestamp":1518288721138,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288730244,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288740035,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288751353,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288766923,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288769904,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288779905,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288789896,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288799889,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288809909,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288819898,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288829924,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288839905,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288849956,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288859964,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288869909,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288879912,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288889923,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288899896,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288909908,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288919904,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288929901,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288939905,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288949964,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288959963,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288969911,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288979957,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288989905,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518288999906,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289009909,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289019910,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289029954,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289039907,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289049906,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289059922,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289069901,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289079959,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289089905,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289099914,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289109959,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289119910,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289129923,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289139958,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289149453,"message":"Parsing delegate proposals: 0"}
+{"level":"ERROR","timestamp":1518289149454,"message":"Header: Error retrieving: DelegateProposals"}
+{"level":"INFO","timestamp":1518289149454,"message":"Header: Emitting updated delegate proposals"}
+{"level":"INFO","timestamp":1518289149958,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289159940,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289169959,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289179932,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289189927,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289200239,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289209924,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289219922,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289229959,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289239947,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289249930,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289255914,"message":"Header: Closed connection"}
+{"level":"INFO","timestamp":1518289256913,"message":"Header: Emitting existing delegate proposals"}
+{"level":"INFO","timestamp":1518289256913,"message":"Header: Emitting existing data"}
+{"level":"INFO","timestamp":1518289256914,"message":"Parsing delegate proposals: 0"}
+{"level":"ERROR","timestamp":1518289256914,"message":"Header: Error retrieving: DelegateProposals"}
+{"level":"INFO","timestamp":1518289256914,"message":"Header: Emitting updated delegate proposals"}
+{"level":"INFO","timestamp":1518289256914,"message":"Header: First connection"}
+{"level":"INFO","timestamp":1518289257282,"message":"Header: Emitting new data"}
+{"level":"INFO","timestamp":1518289267612,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289277590,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289287585,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289297584,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289307588,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289317587,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289327593,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289337578,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289347597,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289357582,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289367587,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289377596,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289387590,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289397589,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289407643,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289417596,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289427605,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289437602,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289447594,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289457667,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289467656,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289477615,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289487692,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289497639,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289507601,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289517629,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289527604,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289537657,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289547717,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289558003,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289567612,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289577604,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289587602,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289597602,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289607591,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289617598,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289627602,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289637600,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289647596,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289657878,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289669126,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289677633,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289687614,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289698671,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289707605,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289717620,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289727620,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289737617,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289747607,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289757655,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289767657,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289777622,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289787623,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289797617,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289807630,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289817619,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289827636,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289837619,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289847622,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289857283,"message":"Parsing delegate proposals: 0"}
+{"level":"ERROR","timestamp":1518289857283,"message":"Header: Error retrieving: DelegateProposals"}
+{"level":"INFO","timestamp":1518289857283,"message":"Header: Emitting updated delegate proposals"}
+{"level":"INFO","timestamp":1518289857624,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289867686,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289879867,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289887805,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289898625,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289907638,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289918635,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289927622,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289937647,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289948739,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289957814,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289970652,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289977629,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518289987625,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290000656,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290008016,"message":"Header: Emitting data"}
+{"level":"ERROR","timestamp":1518290027329,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"ERROR","timestamp":1518290037329,"message":"Header: Error retrieving: getBlockStatus (already running)"}
+{"level":"ERROR","timestamp":1518290038336,"message":"Header: Error retrieving: Status"}
+{"level":"INFO","timestamp":1518290052660,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290057686,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290069202,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290077637,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290087641,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290097737,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290107645,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290117636,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290127636,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290137641,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290147639,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290157633,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290168223,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290177631,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290187889,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290198355,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290207637,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290217672,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290227652,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290237902,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290247645,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290257769,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290267646,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290277640,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290287646,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290297645,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290307646,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290317643,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290327646,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290337644,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290350663,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290359133,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290368699,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290377650,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290388108,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290397658,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290409476,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290418697,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290432696,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290437652,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290447661,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290457285,"message":"Parsing delegate proposals: 0"}
+{"level":"ERROR","timestamp":1518290457285,"message":"Header: Error retrieving: DelegateProposals"}
+{"level":"INFO","timestamp":1518290457285,"message":"Header: Emitting updated delegate proposals"}
+{"level":"INFO","timestamp":1518290457851,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290467663,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290477656,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290487667,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290497669,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290507672,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290517676,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290527667,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290537667,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290547656,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290557674,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290567667,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290577682,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290587660,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290597689,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290607666,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290617677,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290627670,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290637665,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290647671,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290657722,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290667730,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290677677,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290687674,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290697704,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290707677,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290717717,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290727673,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290737701,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290747837,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290757804,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290768225,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290777684,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290787678,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290797674,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290807690,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290817684,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290827718,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290837703,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290847676,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290857709,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290867744,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290877704,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290887688,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290897680,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290907739,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290917718,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290927687,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290937709,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290947696,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290957740,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290967749,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290977691,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290987731,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518290997700,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291007693,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291017687,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291027697,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291037832,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291048041,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291057285,"message":"Parsing delegate proposals: 0"}
+{"level":"ERROR","timestamp":1518291057285,"message":"Header: Error retrieving: DelegateProposals"}
+{"level":"INFO","timestamp":1518291057285,"message":"Header: Emitting updated delegate proposals"}
+{"level":"INFO","timestamp":1518291057702,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291067706,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291077693,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291087734,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291097704,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291107691,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291117714,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291127696,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291137707,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291146650,"message":"Activity Graph: First connection"}
+{"level":"INFO","timestamp":1518291147701,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291148218,"message":"Activity Graph: Emitting new data"}
+{"level":"INFO","timestamp":1518291156992,"message":"Activity Graph: Emitting new data"}
+{"level":"INFO","timestamp":1518291157701,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291166894,"message":"Delegate Monitor: Emitting existing data"}
+{"level":"INFO","timestamp":1518291166898,"message":"Delegate Monitor: First connection"}
+{"level":"INFO","timestamp":1518291167096,"message":"Activity Graph: Emitting new data"}
+{"level":"INFO","timestamp":1518291167742,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291168137,"message":"Delegate Monitor: Emitting new data"}
+{"level":"INFO","timestamp":1518291168993,"message":"Delegate Monitor: Emitting last blocks for: worldcoinpool[8]"}
+{"level":"INFO","timestamp":1518291168994,"message":"Delegate Monitor: Emitting last blocks for: brutale[91]"}
+{"level":"INFO","timestamp":1518291168994,"message":"Delegate Monitor: Emitting last blocks for: sio34[13]"}
+{"level":"INFO","timestamp":1518291168994,"message":"Delegate Monitor: Emitting last blocks for: djandre[3]"}
+{"level":"INFO","timestamp":1518291168995,"message":"Delegate Monitor: Emitting last blocks for: bikeynab[79]"}
+{"level":"INFO","timestamp":1518291168995,"message":"Delegate Monitor: Emitting last blocks for: neuthor[42]"}
+{"level":"INFO","timestamp":1518291168995,"message":"Delegate Monitor: Emitting last blocks for: mrgr2[95]"}
+{"level":"INFO","timestamp":1518291168995,"message":"Delegate Monitor: Emitting last blocks for: samuray[65]"}
+{"level":"INFO","timestamp":1518291168995,"message":"Delegate Monitor: Emitting last blocks for: pnwdrew[87]"}
+{"level":"INFO","timestamp":1518291168995,"message":"Delegate Monitor: Emitting last blocks for: yondz[28]"}
+{"level":"INFO","timestamp":1518291168995,"message":"Delegate Monitor: Emitting last blocks for: joelem[64]"}
+{"level":"INFO","timestamp":1518291168996,"message":"Delegate Monitor: Emitting last blocks for: mrgr[12]"}
+{"level":"INFO","timestamp":1518291168996,"message":"Delegate Monitor: Emitting last blocks for: nuevax[60]"}
+{"level":"INFO","timestamp":1518291168996,"message":"Delegate Monitor: Emitting last blocks for: wariner[83]"}
+{"level":"INFO","timestamp":1518291168996,"message":"Delegate Monitor: Emitting last blocks for: gerb[34]"}
+{"level":"INFO","timestamp":1518291168996,"message":"Delegate Monitor: Emitting last blocks for: goldeneye[30]"}
+{"level":"INFO","timestamp":1518291168996,"message":"Delegate Monitor: Emitting last blocks for: nomoredollar[41]"}
+{"level":"INFO","timestamp":1518291168996,"message":"Delegate Monitor: Emitting last blocks for: deadpool[55]"}
+{"level":"INFO","timestamp":1518291168996,"message":"Delegate Monitor: Emitting last blocks for: bitmyst[31]"}
+{"level":"INFO","timestamp":1518291168997,"message":"Delegate Monitor: Emitting last blocks for: giogio[62]"}
+{"level":"INFO","timestamp":1518291168997,"message":"Delegate Monitor: Emitting last blocks for: axi[59]"}
+{"level":"INFO","timestamp":1518291168997,"message":"Delegate Monitor: Emitting last blocks for: shoosh[76]"}
+{"level":"INFO","timestamp":1518291168997,"message":"Delegate Monitor: Emitting last blocks for: nomoredollar2[63]"}
+{"level":"INFO","timestamp":1518291168997,"message":"Delegate Monitor: Emitting last blocks for: shozay_pool[21]"}
+{"level":"INFO","timestamp":1518291168997,"message":"Delegate Monitor: Emitting last blocks for: trnp[22]"}
+{"level":"INFO","timestamp":1518291168998,"message":"Delegate Monitor: Emitting last blocks for: ryanvdn[89]"}
+{"level":"INFO","timestamp":1518291168998,"message":"Delegate Monitor: Emitting last blocks for: efebmx[68]"}
+{"level":"INFO","timestamp":1518291168998,"message":"Delegate Monitor: Emitting last blocks for: gregorst[1]"}
+{"level":"INFO","timestamp":1518291168998,"message":"Delegate Monitor: Emitting last blocks for: redpool[23]"}
+{"level":"INFO","timestamp":1518291169000,"message":"Delegate Monitor: Emitting last blocks for: thrice.pi[72]"}
+{"level":"INFO","timestamp":1518291169000,"message":"Delegate Monitor: Emitting last blocks for: kiashaan_amz[70]"}
+{"level":"INFO","timestamp":1518291169000,"message":"Delegate Monitor: Emitting last blocks for: gmx[66]"}
+{"level":"INFO","timestamp":1518291169001,"message":"Delegate Monitor: Emitting last blocks for: bawga[5]"}
+{"level":"INFO","timestamp":1518291169001,"message":"Delegate Monitor: Emitting last blocks for: timboslice[90]"}
+{"level":"INFO","timestamp":1518291169001,"message":"Delegate Monitor: Emitting last blocks for: mrwhite[67]"}
+{"level":"INFO","timestamp":1518291169001,"message":"Delegate Monitor: Emitting last blocks for: cc001[82]"}
+{"level":"INFO","timestamp":1518291169001,"message":"Delegate Monitor: Emitting last blocks for: guinew[35]"}
+{"level":"INFO","timestamp":1518291169001,"message":"Delegate Monitor: Emitting last blocks for: peanhoy[24]"}
+{"level":"INFO","timestamp":1518291169001,"message":"Delegate Monitor: Emitting last blocks for: vekexasia[33]"}
+{"level":"INFO","timestamp":1518291169001,"message":"Delegate Monitor: Emitting last blocks for: karanslay[101]"}
+{"level":"INFO","timestamp":1518291169002,"message":"Delegate Monitor: Emitting last blocks for: oakey22[32]"}
+{"level":"INFO","timestamp":1518291169002,"message":"Delegate Monitor: Emitting last blocks for: ondin[92]"}
+{"level":"INFO","timestamp":1518291169002,"message":"Delegate Monitor: Emitting last blocks for: lordshare[50]"}
+{"level":"INFO","timestamp":1518291169002,"message":"Delegate Monitor: Emitting last blocks for: mg_pool[36]"}
+{"level":"INFO","timestamp":1518291169002,"message":"Delegate Monitor: Emitting last blocks for: bioly[86]"}
+{"level":"INFO","timestamp":1518291169002,"message":"Delegate Monitor: Emitting last blocks for: kanieloutis[25]"}
+{"level":"INFO","timestamp":1518291169002,"message":"Delegate Monitor: Emitting last blocks for: jamiec79[51]"}
+{"level":"INFO","timestamp":1518291169003,"message":"Delegate Monitor: Emitting last blocks for: ampsicora[9]"}
+{"level":"INFO","timestamp":1518291169003,"message":"Delegate Monitor: Emitting last blocks for: swimming_pool[39]"}
+{"level":"INFO","timestamp":1518291169003,"message":"Delegate Monitor: Emitting last blocks for: drake_pool[44]"}
+{"level":"INFO","timestamp":1518291169003,"message":"Delegate Monitor: Emitting last blocks for: nyancat[54]"}
+{"level":"INFO","timestamp":1518291169003,"message":"Delegate Monitor: Emitting last blocks for: shiftspider[45]"}
+{"level":"INFO","timestamp":1518291169003,"message":"Delegate Monitor: Emitting last blocks for: shift_tools[16]"}
+{"level":"INFO","timestamp":1518291169003,"message":"Delegate Monitor: Emitting last blocks for: mavnezz[46]"}
+{"level":"INFO","timestamp":1518291169004,"message":"Delegate Monitor: Emitting last blocks for: heisenberg1995[15]"}
+{"level":"INFO","timestamp":1518291169004,"message":"Delegate Monitor: Emitting last blocks for: saluki[19]"}
+{"level":"INFO","timestamp":1518291169004,"message":"Delegate Monitor: Emitting last blocks for: punkrock[85]"}
+{"level":"INFO","timestamp":1518291169004,"message":"Delegate Monitor: Emitting last blocks for: forumfinancejv[29]"}
+{"level":"INFO","timestamp":1518291169004,"message":"Delegate Monitor: Emitting last blocks for: ebola[56]"}
+{"level":"INFO","timestamp":1518291169004,"message":"Delegate Monitor: Emitting last blocks for: swminer90[37]"}
+{"level":"INFO","timestamp":1518291169004,"message":"Delegate Monitor: Emitting last blocks for: nirve[69]"}
+{"level":"INFO","timestamp":1518291169004,"message":"Delegate Monitor: Emitting last blocks for: shift_donations[81]"}
+{"level":"INFO","timestamp":1518291169004,"message":"Delegate Monitor: Emitting last blocks for: win_devnode[48]"}
+{"level":"INFO","timestamp":1518291169004,"message":"Delegate Monitor: Emitting last blocks for: kwell[52]"}
+{"level":"INFO","timestamp":1518291169004,"message":"Delegate Monitor: Emitting last blocks for: vipertkd[27]"}
+{"level":"INFO","timestamp":1518291169005,"message":"Delegate Monitor: Emitting last blocks for: craig[38]"}
+{"level":"INFO","timestamp":1518291169005,"message":"Delegate Monitor: Emitting last blocks for: shiftcow[14]"}
+{"level":"INFO","timestamp":1518291169006,"message":"Delegate Monitor: Emitting last blocks for: samuel_paulsun[18]"}
+{"level":"INFO","timestamp":1518291169006,"message":"Delegate Monitor: Emitting last blocks for: wannabe_rotebaron[100]"}
+{"level":"INFO","timestamp":1518291169006,"message":"Delegate Monitor: Emitting last blocks for: hongkie[20]"}
+{"level":"INFO","timestamp":1518291169006,"message":"Delegate Monitor: Emitting last blocks for: dimm86[10]"}
+{"level":"INFO","timestamp":1518291169007,"message":"Delegate Monitor: Emitting last blocks for: loomdart[58]"}
+{"level":"INFO","timestamp":1518291169007,"message":"Delegate Monitor: Emitting last blocks for: forrest[7]"}
+{"level":"INFO","timestamp":1518291169007,"message":"Delegate Monitor: Emitting last blocks for: shiftpool[26]"}
+{"level":"INFO","timestamp":1518291169007,"message":"Delegate Monitor: Emitting last blocks for: rexy[57]"}
+{"level":"INFO","timestamp":1518291169007,"message":"Delegate Monitor: Emitting last blocks for: stefanoproxy_pool[6]"}
+{"level":"INFO","timestamp":1518291169007,"message":"Delegate Monitor: Emitting last blocks for: snatic[88]"}
+{"level":"INFO","timestamp":1518291169007,"message":"Delegate Monitor: Emitting last blocks for: shiftraider[4]"}
+{"level":"INFO","timestamp":1518291169007,"message":"Delegate Monitor: Emitting last blocks for: gr33ndrag0n[77]"}
+{"level":"INFO","timestamp":1518291169008,"message":"Delegate Monitor: Emitting last blocks for: fanilla[71]"}
+{"level":"INFO","timestamp":1518291169008,"message":"Delegate Monitor: Emitting last blocks for: scofield[96]"}
+{"level":"INFO","timestamp":1518291169008,"message":"Delegate Monitor: Emitting last blocks for: starlord[84]"}
+{"level":"INFO","timestamp":1518291169008,"message":"Delegate Monitor: Emitting last blocks for: ironbank[61]"}
+{"level":"INFO","timestamp":1518291169008,"message":"Delegate Monitor: Emitting last blocks for: anamix[73]"}
+{"level":"INFO","timestamp":1518291169008,"message":"Delegate Monitor: Emitting last blocks for: seatrips[2]"}
+{"level":"INFO","timestamp":1518291169008,"message":"Delegate Monitor: Emitting last blocks for: sirius[80]"}
+{"level":"INFO","timestamp":1518291169008,"message":"Delegate Monitor: Emitting last blocks for: nytrobound[40]"}
+{"level":"INFO","timestamp":1518291169008,"message":"Delegate Monitor: Emitting last blocks for: dotnet70[49]"}
+{"level":"INFO","timestamp":1518291169009,"message":"Delegate Monitor: Emitting last blocks for: iloveshift[97]"}
+{"level":"INFO","timestamp":1518291169009,"message":"Delegate Monitor: Emitting last blocks for: liskit[11]"}
+{"level":"INFO","timestamp":1518291169009,"message":"Delegate Monitor: Emitting last blocks for: exeric3[75]"}
+{"level":"INFO","timestamp":1518291169009,"message":"Delegate Monitor: Emitting last blocks for: gregoro[17]"}
+{"level":"INFO","timestamp":1518291169009,"message":"Delegate Monitor: Emitting last blocks for: carsonpool[47]"}
+{"level":"ERROR","timestamp":1518291169139,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"ERROR","timestamp":1518291170139,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"INFO","timestamp":1518291170712,"message":"Delegate Monitor: Emitting last blocks for: ghostfaceuk[43]"}
+{"level":"ERROR","timestamp":1518291171140,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"ERROR","timestamp":1518291172140,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"INFO","timestamp":1518291172236,"message":"Delegate Monitor: Emitting last blocks for: corsaro[53]"}
+{"level":"ERROR","timestamp":1518291173140,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"ERROR","timestamp":1518291174140,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"INFO","timestamp":1518291174556,"message":"Delegate Monitor: Emitting data"}
+{"level":"INFO","timestamp":1518291174565,"message":"Delegate Monitor: Emitting last blocks for: tjappo[74]"}
+{"level":"ERROR","timestamp":1518291175140,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"INFO","timestamp":1518291175926,"message":"Delegate Monitor: Emitting last blocks for: reinstein[78]"}
+{"level":"ERROR","timestamp":1518291176141,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"ERROR","timestamp":1518291177141,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"INFO","timestamp":1518291177265,"message":"Delegate Monitor: Emitting last blocks for: shiftcommunitywallet[93]"}
+{"level":"INFO","timestamp":1518291177273,"message":"Activity Graph: Emitting new data"}
+{"level":"INFO","timestamp":1518291177721,"message":"Header: Emitting data"}
+{"level":"ERROR","timestamp":1518291178142,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"INFO","timestamp":1518291178710,"message":"Delegate Monitor: Emitting last blocks for: hagie[94]"}
+{"level":"ERROR","timestamp":1518291179142,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"INFO","timestamp":1518291179380,"message":"Delegate Monitor: Emitting data"}
+{"level":"ERROR","timestamp":1518291180142,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"INFO","timestamp":1518291180664,"message":"Delegate Monitor: Emitting last blocks for: necromatiz[98]"}
+{"level":"ERROR","timestamp":1518291181142,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"ERROR","timestamp":1518291182143,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"ERROR","timestamp":1518291183143,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"ERROR","timestamp":1518291184143,"message":"Delegate Monitor: getLastBlocks (already running)"}
+{"level":"INFO","timestamp":1518291184210,"message":"Delegate Monitor: Emitting last blocks for: popcornbag[99]"}
+{"level":"INFO","timestamp":1518291184249,"message":"Delegate Monitor: Emitting data"}
+{"level":"INFO","timestamp":1518291185452,"message":"Delegate Monitor: Emitting last blocks for: forumfinancejv[29]"}
+{"level":"INFO","timestamp":1518291186955,"message":"Activity Graph: Emitting new data"}
+{"level":"INFO","timestamp":1518291187703,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291189507,"message":"Delegate Monitor: Emitting data"}
+{"level":"INFO","timestamp":1518291194536,"message":"Delegate Monitor: Emitting data"}
+{"level":"INFO","timestamp":1518291197365,"message":"Activity Graph: Emitting new data"}
+{"level":"INFO","timestamp":1518291197981,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291201977,"message":"Delegate Monitor: Emitting data"}
+{"level":"INFO","timestamp":1518291204882,"message":"Delegate Monitor: Emitting data"}
+{"level":"INFO","timestamp":1518291206961,"message":"Activity Graph: Emitting new data"}
+{"level":"INFO","timestamp":1518291207714,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291209311,"message":"Delegate Monitor: Emitting data"}
+{"level":"INFO","timestamp":1518291209474,"message":"Delegate Monitor: Emitting last blocks for: yondz[28]"}
+{"level":"INFO","timestamp":1518291214400,"message":"Delegate Monitor: Emitting data"}
+{"level":"INFO","timestamp":1518291216966,"message":"Activity Graph: Emitting new data"}
+{"level":"INFO","timestamp":1518291217708,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291220524,"message":"Delegate Monitor: Emitting data"}
+{"level":"INFO","timestamp":1518291227082,"message":"Activity Graph: Emitting new data"}
+{"level":"INFO","timestamp":1518291227631,"message":"Delegate Monitor: Emitting data"}
+{"level":"INFO","timestamp":1518291227706,"message":"Header: Emitting data"}
+{"level":"INFO","timestamp":1518291229625,"message":"Delegate Monitor: Emitting data"}
+{"level":"INFO","timestamp":1518291234595,"message":"Delegate Monitor: Emitting data"}

@@ -1,8 +1,8 @@
-const api = require('../lib/api');
+const api = require('./api');
 const moment = require('moment');
 const async = require('async');
 const request = require('request');
-const logger = require('../utils/logger');
+const logger = require('./utils/logger');
 
 module.exports = function (app, connectionHandler, socket) {
 	const delegates = new api.delegates(app);
@@ -139,7 +139,7 @@ module.exports = function (app, connectionHandler, socket) {
 
 	const emitDelegate = (delegate) => {
 		log('info', `Emitting last blocks for: ${delegateName(delegate)}`);
-		socket.emit('delegate', delegate);
+	    socket.emit('delegate', delegate);
 	};
 
 	const getLastBlocks = (init) => {
@@ -293,7 +293,7 @@ module.exports = function (app, connectionHandler, socket) {
 				data.nextForgers = cutNextForgers(10);
 
 				log('info', 'Emitting data');
-				socket.emit('data', data);
+			    socket.emit('data', data);
 			}
 		});
 	};
@@ -322,7 +322,7 @@ module.exports = function (app, connectionHandler, socket) {
 				data.nextForgers = cutNextForgers(10);
 
 				log('info', 'Emitting new data');
-				socket.emit('data', data);
+			    socket.emit('data', data);
 
 				getLastBlocks(data.active, true);
 
@@ -334,7 +334,7 @@ module.exports = function (app, connectionHandler, socket) {
 
 	this.onConnect = function () {
 		log('info', 'Emitting existing data');
-		socket.emit('data', data);
+	    socket.emit('data', data);
 	};
 
 	this.onDisconnect = function () {

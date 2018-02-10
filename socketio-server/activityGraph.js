@@ -1,5 +1,5 @@
-const api = require('../lib/api');
-const logger = require('../utils/logger');
+const api = require('./api');
+const logger = require('./utils/logger');
 
 module.exports = function (app, connectionHandler, socket) {
 	const statistics = new api.statistics(app);
@@ -66,7 +66,7 @@ module.exports = function (app, connectionHandler, socket) {
 				data = res;
 			}
 			log('info', 'Emitting new data');
-			socket.emit('data', data);
+		    socket.emit('data', data);
 		});
 	};
 
@@ -80,7 +80,7 @@ module.exports = function (app, connectionHandler, socket) {
 
 	this.onConnect = function () {
 		log('warn', 'Emitting existing data');
-		socket.emit('data', data);
+	    socket.emit('data', data);
 	};
 
 	this.onDisconnect = function () {

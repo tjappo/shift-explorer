@@ -1,7 +1,7 @@
-const api = require('../lib/api');
-const config = require('../config');
+const api = require('./api');
+const config = require('./config');
 const async = require('async');
-const logger = require('../utils/logger');
+const logger = require('./utils/logger');
 
 module.exports = function (app, connectionHandler, socket) {
 	const blocks = new api.blocks(app);

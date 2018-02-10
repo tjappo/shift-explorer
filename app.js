@@ -1,5 +1,5 @@
 const express = require('express');
-let config = require('./config');
+const config = require('./config');
 const routes = require('./api');
 const path = require('path');
 const cache = require('./cache');
@@ -47,8 +47,6 @@ app.use((req, res, next) => {
 	res.setHeader('X-Frame-Options', 'DENY');
 	res.setHeader('X-Content-Type-Options', 'nosniff');
 	res.setHeader('X-XSS-Protection', '1; mode=block');
-	const wsSrc = `ws://${req.get('host')} wss://${req.get('host')}`;
-	res.setHeader('Content-Security-Policy', `frame-ancestors 'none'; default-src 'self'; connect-src 'self' ${wsSrc}; img-src 'self' https://*.tile.openstreetmap.org; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com`);
 	return next();
 });
 
@@ -186,9 +184,6 @@ async.parallel([
 			logger.info(err);
 		} else {
 			logger.info(`Shift Explorer started at ${app.get('host')}:${app.get('port')}`);
-
-			const io = require('socket.io').listen(server);
-			require('./sockets')(app, io);
 		}
 	});
 });

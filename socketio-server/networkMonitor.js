@@ -1,6 +1,6 @@
-const api = require('../lib/api');
+const api = require('./api');
 const async = require('async');
-const logger = require('../utils/logger');
+const logger = require('./utils/logger');
 
 module.exports = function (app, connectionHandler, socket) {
 	const statistics = new api.statistics(app);
@@ -91,7 +91,7 @@ module.exports = function (app, connectionHandler, socket) {
 				data.lastBlock = res[0];
 
 				log('info', 'Emitting data-1 (last block data)');
-				socket.emit('data1', lastBlockData);
+			    socket.emit('data1', lastBlockData);
 			}
 		});
 	};
@@ -110,7 +110,7 @@ module.exports = function (app, connectionHandler, socket) {
 				data.blocks = res[0];
 
 				log('info', 'Emitting data-2 (blocks data)');
-				socket.emit('data2', blocksData);
+			    socket.emit('data2', blocksData);
 			}
 		});
 	};
@@ -129,7 +129,7 @@ module.exports = function (app, connectionHandler, socket) {
 				data.peers = res[0];
 
 				log('info', 'Emitting data-3 (peers data)');
-				socket.emit('data3', peersData);
+			    socket.emit('data3', peersData);
 			}
 		});
 	};
@@ -151,7 +151,7 @@ module.exports = function (app, connectionHandler, socket) {
 				data.peers = res[2];
 
 				log('info', 'Emitting new data');
-				socket.emit('data', data);
+			    socket.emit('data', data);
 
 				newInterval(0, 5000, emitData1);
 				/** @todo Here we are pulling 8640 blocks - logic should be changed */
@@ -163,7 +163,7 @@ module.exports = function (app, connectionHandler, socket) {
 
 	this.onConnect = function () {
 		log('info', 'Emitting existing data');
-		socket.emit('data', data);
+	    socket.emit('data', data);
 	};
 
 	this.onDisconnect = function () {

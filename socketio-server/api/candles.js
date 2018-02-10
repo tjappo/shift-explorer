@@ -134,7 +134,7 @@ module.exports = function (app) {
 			};
 
 			statistics = {
-				last: statistics.last ? statistics.last.close : (results[1] ? results[1].close : Number(0).toFixed(8)),
+				last: statistics.last ? statistics.last.close : results[1].close,
 				high: statistics.high ? statistics.high : Number(0).toFixed(8),
 				low: statistics.low ? statistics.low : Number(0).toFixed(8),
 				btcVolume: statistics.btcVolume,
