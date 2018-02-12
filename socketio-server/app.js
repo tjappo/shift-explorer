@@ -58,18 +58,9 @@ app.use(bodyParser.urlencoded({
 }));
 
 const corsMiddleWare = function (req, res, next) {
-	// TODO: Populate this whitelist from config file
-	const ALLOWED_ORIGINS = [ 'http://127.0.0.1:6040' ];
+	var origin = req.headers.origin;
 
-	var origin, isAllowedOrigin;
-
-	origin			= req.headers.origin;
-	isAllowedOrigin = ALLOWED_ORIGINS.indexOf(origin) > -1;
-
-	if (isAllowedOrigin) {
-		res.header('Access-Control-Allow-Origin', origin);
-	}
-
+    res.header('Access-Control-Allow-Origin', origin);
 	res.header('Access-Control-Allow-Methods', 'GET');
 	res.header('Access-Control-Allow-Headers', 'Content-Type');
 	next();
