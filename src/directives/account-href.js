@@ -1,6 +1,6 @@
 import AppTools from '../app/app-tools.module';
 
-const accountHref = AppTools.directive('accountHref', () => {
+const accountHref = AppTools.directive('accountHref', ($rootScope) => {
 	/**
 	 * Joins all of the inputs and returns the resulting string in camelCase.
 	 * @param {string} first - This word will join the rest in lower-case
@@ -38,7 +38,7 @@ const accountHref = AppTools.directive('accountHref', () => {
 				id = $scope.id ? $scope.id : $scope.accountHref.address;
 			}
 
-			$attrs.$set('href', username ? `/delegate/${id}` : `/address/${id}`);
+			$attrs.$set('href', $rootScope.baseUrl(username ? `delegate/${id}` : `address/${id}`));
 		},
 	};
 });

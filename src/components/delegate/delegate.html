@@ -11,13 +11,13 @@
 								<td class="text-right">
 									<!-- Possible to add this if there is a shift delegate information page -->
 									<!--<a class="glyphicon glyphicon-user" data-ng-if="vm.address.delegate.username | proposal:$root.delegateProposals" data-ng-href="https://forum.lisk.io/viewtopic.php?f=48&t={{vm.address.delegate.username | proposal:$root.delegateProposals: 'topic'}}" title="{{vm.address.delegate.username | proposal:$root.delegateProposals: 'description'}}" target="_blank"></a>-->
-									<a href="/delegate/{{vm.address.delegate.address}}">{{vm.address.delegate.username}}</a>
+									<a data-rel-href="/delegate/{{vm.address.delegate.address}}">{{vm.address.delegate.username}}</a>
 								</td>
 							</tr>
 							<tr>
 								<td><strong>Address</strong></td>
 								<td class="text-right">
-									<a href="/address/{{vm.address.address}}">{{vm.address.address}}</a>
+									<a data-rel-href="/address/{{vm.address.address}}">{{vm.address.address}}</a>
 								</td>
 							</tr>
 							<tr>

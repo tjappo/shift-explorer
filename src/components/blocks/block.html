@@ -53,13 +53,13 @@
 						<tr data-ng-if="block.nextBlock">
 							<td><strong>Next block</strong></td>
 							<td class="text-right">
-								<a href="/block/{{ vm.block.nextBlock }}">{{ vm.block.nextBlock }}</a>
+								<a data-rel-href="/block/{{ vm.block.nextBlock }}">{{ vm.block.nextBlock }}</a>
 							</td>
 						</tr>
 						<tr data-ng-if="vm.block.previousBlock">
 							<td><strong>Previous block</strong></td>
 							<td class="text-right">
-								<a href="/block/{{ vm.block.previousBlock }}">{{ vm.block.previousBlock }}</a>
+								<a data-rel-href="/block/{{ vm.block.previousBlock }}">{{ vm.block.previousBlock }}</a>
 							</td>
 						</tr>
 						<tr>

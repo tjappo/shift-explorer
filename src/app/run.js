@@ -9,7 +9,14 @@ App.run((
 	$http,
 	gettextCatalog,
 	$transitions,
+	$browser,
 ) => {
+	$rootScope.baseUrl = (relativeUrl) => {
+		const baseUrl = $browser.baseHref().replace(/\/$/, '');
+		const relUrl = relativeUrl.replace(/^\//, '');
+		return `${baseUrl}/${relUrl}`;
+	};
+
 	gettextCatalog.currentLanguage = 'en';
 	$transitions.onSuccess({ to: '*' }, () => {
 		$rootScope.titleDetail = '';

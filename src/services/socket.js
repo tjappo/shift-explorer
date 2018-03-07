@@ -1,13 +1,14 @@
 import io from 'socket.io-client';
 import AppServices from './services.module';
-
+import config from '../config.json';
 
 /**
  * @todo isolate socket.io
  */
 AppServices.factory('$socket',
 	($location, $rootScope) => (namespace) => {
-		const socket = io(`${$location.host()}:${$location.port()}${namespace}`, { forceNew: true });
+		const node = config.nodes[Math.floor(Math.random()*config.nodes.length)];
+		const socket = io(`${node}${namespace}`, { forceNew: true });
 
 		return {
 			on(eventName, callback) {
