@@ -7,7 +7,7 @@ import config from '../config.json';
  */
 AppServices.factory('$socket',
 	($location, $rootScope) => (namespace) => {
-		const node = config.nodes[Math.floor(Math.random()*config.nodes.length)];
+		const node = config.nodes[Math.floor(Math.random() * config.nodes.length)];
 		const socket = io(`${node}${namespace}`, { forceNew: true });
 
 		return {
