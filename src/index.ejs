@@ -35,14 +35,15 @@
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic">
 	<!--<link rel="stylesheet" data-rel-href="/css/main.min.css">-->
-</head>
-<body data-ng-cloak class="ng-cloak">
 	<script type="text/javascript">
 		var baseTag = document.getElementsByTagName("base")[0];
 		var windowPath = window.location.pathname;
 		var path = windowPath.replace(/(\/explorer\/).+$/i, '$1');
 		baseTag.href = path.match('/explorer/') ? path : '/';
 	</script>
+	<script type="text/javascript" src="nodes-config.js"></script>
+</head>
+<body data-ng-cloak class="ng-cloak">
 	<div id="wrap">
 		<main-header></main-header>
 		<section class="container">

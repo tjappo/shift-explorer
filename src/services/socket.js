@@ -1,14 +1,15 @@
 import io from 'socket.io-client';
 import AppServices from './services.module';
-import config from '../config.json';
 
 /**
  * @todo isolate socket.io
  */
 AppServices.factory('$socket',
-	($location, $rootScope) => (namespace) => {
-		const node = config.nodes[Math.floor(Math.random() * config.nodes.length)];
-		const socket = io(`${node}${namespace}`, { forceNew: true });
+	($location, $rootScope, $window) => (namespace) => {
+		const nodes = $window.nodes;
+		const node = nodes[Math.floor(Math.random() * nodes.length)];
+		const socketNode = node.replace(/^.+\/\//, '');
+		const socket = io(`${socketNode}${namespace}`, { forceNew: true });
 
 		return {
 			on(eventName, callback) {

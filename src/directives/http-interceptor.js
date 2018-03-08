@@ -1,13 +1,13 @@
 import AppTools from '../app/app-tools.module';
-import config from '../config.json';
 
-AppTools.config(['$httpProvider',
-	($httpProvider) => {
+AppTools.config(['$httpProvider', '$windowProvider',
+	($httpProvider, $windowProvider) => {
 		$httpProvider.interceptors.push(() => ({
 			request: (requestConfig) => {
 				if (requestConfig.url.startsWith('/')) {
-					const node = config.nodes[Math.floor(Math.random() * config.nodes.length)];
-					requestConfig.url = `http://${node}${requestConfig.url}`;
+					const nodes = $windowProvider.$get().nodes;
+					const node = nodes[Math.floor(Math.random() * nodes.length)];
+					requestConfig.url = `${node}${requestConfig.url}`;
 				}
 
 				return requestConfig;
