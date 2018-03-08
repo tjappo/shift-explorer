@@ -36,12 +36,27 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic">
 	<!--<link rel="stylesheet" data-rel-href="/css/main.min.css">-->
 	<script type="text/javascript">
-		var baseTag = document.getElementsByTagName("base")[0];
-		var windowPath = window.location.pathname;
-		var path = windowPath.replace(/(\/explorer\/).+$/i, '$1');
-		baseTag.href = path.match('/explorer/') ? path : '/';
+	    // Base tag
+	    var baseTag = document.getElementsByTagName("base")[0],
+	    	windowPath = window.location.pathname,
+	    	path = windowPath.replace(/(\/explorer\/).+$/i, '$1');
+	    	
+	    baseTag.href = path.match('/explorer/') ? path : '/';
 	</script>
 	<script type="text/javascript" src="nodes-config.js"></script>
+	<script type="text/javascript">
+	    // Prevent mixed sources
+	    window.nodes = ["explorer.shiftnrg.org"];	    
+	    if (window.location.protocol == 'https:') {
+	        for(var i=0; i<window.nodes.length; i++) {
+				if (nodelist[i].substring(0,6) == 'https:') {
+		            window.nodes.push(nodelist[i]);
+		        }
+	        }
+	    } else if (!!nodelist && nodelist.constructor === Array) {
+	        window.nodes = nodelist;    
+	    }
+	</script>
 </head>
 <body data-ng-cloak class="ng-cloak">
 	<div id="wrap">
