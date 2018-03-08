@@ -46,10 +46,10 @@
 	<script type="text/javascript" src="nodes-config.js"></script>
 	<script type="text/javascript">
 	    // Prevent mixed sources
-	    window.nodes = ["explorer.shiftnrg.org"];	    
+	    window.nodes = ["https://explorer.shiftnrg.org"];  
 	    if (window.location.protocol == 'https:') {
 	        for(var i=0; i<window.nodes.length; i++) {
-				if (nodelist[i].substring(0,6) == 'https:') {
+		        if (nodelist[i].substring(0,6) == 'https:') {
 		            window.nodes.push(nodelist[i]);
 		        }
 	        }
