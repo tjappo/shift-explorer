@@ -6,10 +6,18 @@ import AppServices from './services.module';
  */
 AppServices.factory('$socket',
 	($location, $rootScope, $window) => (namespace) => {
-		const nodes = $window.nodes;
-		const node = nodes[Math.floor(Math.random() * nodes.length)];
+		const node = $window.currentnode;
 		const socketNode = node.replace(/^.+\/\//, '');
-		const socket = io(`${socketNode}${namespace}`, { forceNew: true });
+		const socket = io(`${socketNode}${namespace}`, {
+			forceNew: true,
+			timeout: 3000,
+			reconnection: false });
+
+		socket.on('connect_error', () => {
+			$window.cyclenode();
+			socket.io.uri = $window.currentnode;
+			setTimeout(() => socket.io.reconnect(), 100);
+		});
 
 		return {
 			on(eventName, callback) {

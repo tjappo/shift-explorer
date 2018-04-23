@@ -5,8 +5,8 @@ AppTools.config(['$httpProvider', '$windowProvider',
 		$httpProvider.interceptors.push(() => ({
 			request: (requestConfig) => {
 				if (requestConfig.url.startsWith('/')) {
-					const nodes = $windowProvider.$get().nodes;
-					const node = nodes[Math.floor(Math.random() * nodes.length)];
+					const node = $windowProvider.$get().currentnode;
+					requestConfig.timeout = 3500;
 					requestConfig.url = `${node}${requestConfig.url}`;
 				}
 

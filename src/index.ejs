@@ -40,14 +40,33 @@
 	    var baseTag = document.getElementsByTagName("base")[0],
 	    	windowPath = window.location.pathname,
 	    	path = windowPath.replace(/(\/explorer\/).+$/i, '$1');
-	    	
+
 	    baseTag.href = path.match('/explorer/') ? path : '/';
 	</script>
 	<script type="text/javascript" src="nodes-config.js"></script>
 	<script type="text/javascript">
-		// Prevent mixed sources 
+		function shuffle(array) {
+			var currentIndex = array.length, temporaryValue, randomIndex;
+
+			// While there remain elements to shuffle...
+			while (0 !== currentIndex) {
+
+				// Pick a remaining element...
+				randomIndex = Math.floor(Math.random() * currentIndex);
+				currentIndex -= 1;
+
+				// And swap it with the current element.
+				temporaryValue = array[currentIndex];
+				array[currentIndex] = array[randomIndex];
+				array[randomIndex] = temporaryValue;
+			}
+
+			return array;
+		}
+
+		// Prevent mixed sources
 		if (!!nodelist && nodelist.constructor === Array){
-			if (window.location.protocol == 'https:') {    	
+			if (window.location.protocol == 'https:') {
 				window.nodes = [];
 				nodelist.forEach(function(v, i) {
 					if (v.substring(0,6) == 'https:') {
@@ -55,11 +74,25 @@
 					}
 				});
 			} else {
-				window.nodes = nodelist; 
+				window.nodes = nodelist;
 			}
 		} else {
-			window.nodes = [window.location.origin + window.location.pathname]; 
+			window.nodes = [window.location.origin + window.location.pathname];
 		}
+
+		window.attemptednodes = [];
+		window.nodes = shuffle(nodes);
+
+		window.cyclenode = function() {
+			if (window.nodes.length < 1) {
+				window.nodes = window.attemptednodes;
+				window.attemptednodes = [];
+			}
+			window.currentnode = window.nodes.pop();
+			window.attemptednodes.push(window.currentnode);
+		};
+
+		window.cyclenode();
 	</script>
 </head>
 <body data-ng-cloak class="ng-cloak">
