@@ -1,6 +1,8 @@
 import App from './app';
 
-App.config(($stateProvider, $urlRouterProvider, $locationProvider) => {
+App.config(($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider, $locationProvider) => {
+	$urlMatcherFactoryProvider.strictMode(false);
+
 	$stateProvider
 		.state('home', {
 			url: '/',
